@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chosenNew">
+
+    <Spinner
+        android:layout_height="54dp"
+        android:layout_width="164dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="64dp"
+        android:id="@+id/type2_spinner"/>
+
+
+    <LinearLayout
+        android:layout_height="320dp"
+        android:layout_width="402dp" 
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bodyType_textView"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+
+    <LinearLayout
+        android:layout_height="314dp"
+        android:layout_width="94dp"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:layout_height="74dp"
+        android:layout_width="99dp"
+        android:id="@+id/body1_imageButton_ball"
+        android:src="@drawable/ball"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="66dp"
+        android:layout_width="match_parent"
+        android:id="@+id/body2_imageButton_legs"
+        android:src="@drawable/legs"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="83dp"
+        android:layout_width="98dp"
+        android:id="@+id/body3_imageButton_fish"
+        android:src="@drawable/fish"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="84dp"
+        android:layout_width="97dp"
+        android:id="@+id/body4_imageButton_insect"
+        android:src="@drawable/insect"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+        android:layout_height="321dp"
+        android:layout_width="78dp"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:layout_height="75dp"
+        android:layout_width="81dp"
+        android:id="@+id/body5_imageButton_quadruped"
+        android:src="@drawable/quadruped"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="64dp"
+        android:layout_width="82dp"
+        android:id="@+id/body6_imageButton_wings"
+        android:src="@drawable/wings"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="82dp"
+        android:layout_width="83dp"
+        android:id="@+id/body7_imageButton_bugwings"
+        android:src="@drawable/bug_wings"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="82dp"
+        android:layout_width="82dp"
+        android:id="@+id/body8_imageButton_heads"
+        android:src="@drawable/heads"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>
+
+    <ImageButton
+        android:layout_height="75dp"
+        android:layout_width="85dp"
+        android:id="@+id/body9_imageButton_tentacles"
+        android:src="@drawable/tentacles"
+        android:scaleType="fitXY"/>
+
+
+    -<LinearLayout
+        android:layout_height="315dp"
+        android:layout_width="75dp"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:layout_height="77dp"
+        android:layout_width="76dp"
+        android:id="@+id/body10_imageButton_blob"
+        android:src="@drawable/blob"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:id="@+id/body11_imageButton_upright"
+        android:src="@drawable/upright"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="75dp"
+        android:layout_width="match_parent"
+        android:id="@+id/body12_imageButton_humanoid"
+        android:src="@drawable/humanoid"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:layout_height="79dp"
+        android:layout_width="match_parent"
+        android:id="@+id/body13_imageButton_squiggly"
+        android:src="@drawable/squiggly"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>
+
+    <ImageButton
+        android:layout_height="75dp"
+        android:layout_width="71dp"
+        android:id="@+id/body14_imageButton_arms"
+        android:src="@drawable/arms"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>
+
+    <TextView
+        android:layout_height="62dp"
+        android:layout_width="241dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/bodyType_textView"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="Please choose a body type! "
+        android:fontFamily="@font/akaya_telivigala"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/continue_button"
+        android:text="continue"/>
+
+    <TextView
+        android:layout_height="102dp"
+        android:layout_width="338dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="204dp"
+        android:id="@+id/textView13"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="The body type will play an important role in creating the Pokemon! "
+        android:fontFamily="@font/akaya_telivigala"/>
+
+    <EditText
+        android:layout_height="59dp"
+        android:layout_width="209dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/pkmGivenName_editText"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        android:layout_marginTop="13dp"
+        app:layout_constraintVertical_bias="0.0"
+        android:inputType="textPersonName"
+        android:hint="Enter Pokemon Name"
+        android:ems="10"/>
+
+    <Spinner
+        android:layout_height="55dp"
+        android:layout_width="172dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="64dp"
+        android:id="@+id/type1_spinner"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

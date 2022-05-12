@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".displayStarter6">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="316dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Congratulations on Choosing Your Starting Team!!!"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="319dp"
+        android:layout_height="460dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.338">
+
+        <LinearLayout
+            android:layout_width="159dp"
+            android:layout_height="456dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagePkmn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/Pkmn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokemon1" />
+
+            <ImageView
+                android:id="@+id/imagePkmn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/Pkmn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokemon3" />
+
+            <ImageView
+                android:id="@+id/imagePkmn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/Pkmn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokemon5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="146dp"
+            android:layout_height="456dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagePkmn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/Pkmn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokemon2" />
+
+            <ImageView
+                android:id="@+id/imagePkmn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/Pkmn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokemon4" />
+
+            <ImageView
+                android:id="@+id/imagePkmn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/Pkmn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pokemon6" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
